@@ -34,7 +34,7 @@ require_once 'Typecho/Common.php';
 Typecho_Common::init();
 
 /** 定义数据库参数 */
-$db = new Typecho_Db('Mysql', 'freedb_');
+$db = new Typecho_Db('Pdo_Mysql', 'freedb_');
 $db->addServer(array (
   'host' => 'sql.freedb.tech',
   'user' => 'raisetsu41',
