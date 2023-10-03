@@ -38,7 +38,7 @@ $db = new Typecho_Db('Mysql', 'freedb_');
 $db->addServer(array (
   'host' => 'sql.freedb.tech',
   'user' => 'raisetsu41',
-  'password' => 'mV2tD4qx$*K7vHk',
+  'password' => 'zP*r54W8gF9WhK9',
   'charset' => 'utf8mb4',
   'port' => '3306',
   'database' => 'raisetsu-typecho',
